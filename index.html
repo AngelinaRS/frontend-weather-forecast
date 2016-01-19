@@ -1,4 +1,6 @@
 <!--
+
+
 Usa este archivo para tu proyecto. No olvides hacer
 la estructura correta y guardar TODO tu CSS en el archivo styles.css
  -->
@@ -31,13 +33,42 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
 
     <body>
 
+        <h1 class="title">Weather Forecast</h1>
+
+        <div>
+            <form>
+                <input class="input" id="country" type="text" name="" value="" placeholder="Country..."/>
+                <input class="input" id="state" type="text" name="" value="" placeholder="State..."/>
+            </form>
+        </div>
+        <div>
+            <form>
+                <input class="f" type="radio" name="temperature" value="fahrenheit" checked> °F
+                <input type="radio" name="temperature" value="celsius"> °C <br> <br>
+            </form>
+        </div>
+        <button id="SearchWeather">Search</button>
+
+        <div>
+            <h1>Country</h1>
+                <p id="nameCity"></p>
+        </div>
+        <div>
+            <h1></h1>
+        </div>
+
+
+
+
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/libs/jquery-2.1.1.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/libs/bootstrap.js"></script>
+
 
     </body>
 </html>
