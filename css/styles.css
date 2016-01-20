@@ -6,16 +6,77 @@ body {
 }
 
 .title {
-    text-align: left;
+    text-align: center;
     font-size: 3em;
+    font-size: 80px;
 }
 
 .input {
-    height: 30px;
+    height: 40px;
+    width: 25%;
     display: block;
 }
 
 #nameCity {
+    color: black;
+    font-size: 60px;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.conditions {
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    width: 33%;
+}
+
+.font {
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+#icon {
+    text-align: center;
+}
+
+.black {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+.clear-both {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+
+#date {
+    font-size: 25px;
+    color: black;
+    margin-left: 6%;
+    margin-top: 200px;
+}
+
+#new-search {
+    float: right;
+    margin-right: 30%;
+    margin-top: -2%;
+}
+
+.button {
+    background-color: transparent;
     color: white;
-    font-size: 100px;
+}
+
+.to-left {
+    margin-left: 5%;
+    margin-top: 1%;
 }
