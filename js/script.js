@@ -15,7 +15,12 @@ $(document).ready(function() {
 				data : "jsonp",
 
 				success : function(json_parsed){
-					var city = json_parsed["current_observation"]["display_location"]["full"];
+					try {
+						var city = json_parsed["current_observation"]["display_location"]["full"];
+					} catch(error) {
+						alert("Write the correct names...");
+						location.reload();
+					}
 					var weather = json_parsed["current_observation"]["weather"];
 					var icon = json_parsed["current_observation"]["icon_url"];
 					var wind = json_parsed["current_observation"]["wind_kph"];
@@ -50,8 +55,7 @@ $(document).ready(function() {
 	});
 
 	$("#new-search").click(function(){
-		document.getElementById("input-reset").reset();
-		location.reload(true);
+		location.reload();
 		$(".to-hide").removeClass("hide");
 		$(".to-show").addClass("hide");
 
