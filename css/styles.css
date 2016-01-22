@@ -21,7 +21,7 @@ body {
 }
 
 /*Properties of full name city*/
-#nameCity {
+.nameCity {
     color: black;
     font-size: 60px;
     margin-top: 1%;
@@ -44,7 +44,7 @@ body {
 }
 
 /*Align the image in the center*/
-#icon {
+.icon {
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 /*Properties of the current date*/
-#date {
+.date {
     font-size: 25px;
     color: black;
     margin-left: 6%;
@@ -74,7 +74,7 @@ body {
 }
 
 /*Properties of the button of [new search]*/
-#new-search {
+.new-search {
     float: right;
     margin-right: 30%;
     margin-top: -2%;
