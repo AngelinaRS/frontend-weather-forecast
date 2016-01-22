@@ -28,6 +28,7 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!---->
 
 </head>
 
@@ -36,59 +37,59 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css
         <p class="title">Weather Forecast</p>
 
         <div class="to-hide to-left">
-            <form id="input-reset">
+            <form id="input-reset"> <!--This saves the input of the country and state inserted by user-->
                 <input class="input" id="country" type="text" name="" value="" placeholder="Country..."/> <br>
                 <input class="input" id="state" type="text" name="" value="" placeholder="State..."/>
             </form>
         </div>
         <div class="to-hide to-left">
-            <form>
+            <form><!--This contain the election by user (fahrenheit or celsius)-->
                 <input type="radio" name="temperature" value="fahrenheit" checked> °F
                 <input type="radio" name="temperature" value="celsius"> °C <br>
             </form>
         </div>
 
-        <button id="SearchWeather" class="to-hide button to-left">Search</button>
+        <button id="SearchWeather" class="to-hide button to-left">Search</button> <!--This is the button to search-->
 
         <div class="to-show">
-            <p id="nameCity"></p>
+            <p id="nameCity"></p> <!--This contains the name of the country and state to show-->
         </div>
 
         <div class="clear-both to-show">
             <div class="conditions">
                 <div>
-                    <p id="weather" class="black"></p>
+                    <p id="weather" class="black"></p> <!--This shows the current weather-->
                 </div>
-                <p id="icon"></p>
-                <p id="temperature" class="font"></p>
+                <p id="icon"></p> <!--This shows the image of the weather-->
+                <p id="temperature" class="font"></p> <!--This shows the temperature chosen by user-->
             </div>
             <div class="conditions">
-                <p class="black hide">Wind</p>
+                <p class="black hide">Wind</p> <!--This shows the velocity of the wind-->
                 <p id="wind" class="font"></p>
             </div>
             <div class="conditions">
-                <p class="black hide">Humidity</p>
+                <p class="black hide">Humidity</p> <!--This shows the percent of the humidity-->
                 <p id="humidity" class="font"></p>
             </div>
         </div>
 
         <div class="clear-both to-show">
             <div class="conditions">
-                <p class="black hide">Latitude</p>
+                <p class="black hide">Latitude</p><!--This shows the latitude-->
                 <p id="latitude" class="font"></p>
             </div>
             <div class="conditions">
-                <p class="black hide">Elevation</p>
+                <p class="black hide">Elevation</p><!--This shows the elevation-->
                 <p id="elevation" class="font"></p>
             </div>
             <div class="conditions">
-                <p class="black hide">Longitude</p>
+                <p class="black hide">Longitude</p> <!--This shows the longitude-->
                 <p id="longitude" class="font"></p>
             </div>
         </div>
         <div class="to-show">
             <div id="date"></div>
-            <button id="new-search" class="hide button">New Search</button>
+            <button id="new-search" class="hide button">New Search</button> <!--This is the button of the new search-->
         </div>
 
     <!-- Bootstrap core JavaScript

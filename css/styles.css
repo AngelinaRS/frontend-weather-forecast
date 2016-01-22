@@ -1,3 +1,4 @@
+/*Set the image as background of screen*/
 body {
     background:  url(../images/es-arcoiris.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -5,18 +6,21 @@ body {
     background-size: cover;
 }
 
+/*The title of weather forecast*/
 .title {
     text-align: center;
     font-size: 3em;
     font-size: 80px;
 }
 
+/*Properties of input*/
 .input {
     height: 40px;
     width: 25%;
     display: block;
 }
 
+/*Properties of full name city*/
 #nameCity {
     color: black;
     font-size: 60px;
@@ -24,6 +28,7 @@ body {
     text-align: center;
 }
 
+/*Properties of forecast*/
 .conditions {
     float: left;
     border-radius: 10px;
@@ -38,16 +43,18 @@ body {
     text-align: center;
 }
 
+/*Align the image in the center*/
 #icon {
     text-align: center;
 }
 
+/*Properties of the title of forecast*/
 .black {
     color: black;
     text-align: center;
     font-size: 40px;
 }
-
+/*Hide the elements*/
 .hide {
     display: none;
 }
@@ -58,6 +65,7 @@ body {
     clear: both;
 }
 
+/*Properties of the current date*/
 #date {
     font-size: 25px;
     color: black;
@@ -65,17 +73,20 @@ body {
     margin-top: 200px;
 }
 
+/*Properties of the button of [new search]*/
 #new-search {
     float: right;
     margin-right: 30%;
     margin-top: -2%;
 }
 
+/*Properties of buttons of [search] and [new search]*/
 .button {
     background-color: transparent;
     color: white;
 }
 
+/*Moves the inputs and button [search] to the right*/
 .to-left {
     margin-left: 5%;
     margin-top: 1%;
